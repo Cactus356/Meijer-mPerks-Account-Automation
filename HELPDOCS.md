@@ -24,9 +24,9 @@ Once you have the accounts set up in your Firefox profiles, run main.py and sele
 ## Troubleshooting:
 If there's an error somewhere in the webpage, the console should print what the error was. For example:
 ```
-[Doug] No coupons found for 'search1'
-[Doug] No coupons found for 'search2'
-[Doug] Error getting clipped coupons description: Message: Unable to locate element: .//button[contains(., 'Clip')]; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception Stacktrace:
+[Account1] No coupons found for 'search1'
+[Account1] No coupons found for 'search2'
+[Account1] Error getting clipped coupons description: Message: Unable to locate element: .//button[contains(., 'Clip')]; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception Stacktrace:
 ```
 If you run into something, open an issue and paste that line and I'll see what I can do to fix it.
 
